@@ -2,7 +2,7 @@ from distutils import command
 from ipaddress import ip_address
 from netmiko import ConnectHandler
 from setuptools import command
-import time
+
 
 SW1={'host':'10.211.2.10',
 'username':'samer','password':'cisco','device_type':'cisco_xr'}
