@@ -2,7 +2,7 @@ from distutils import command
 from ipaddress import ip_address
 from netmiko import ConnectHandler
 from setuptools import command
-import time
+
 
 #this can work for Cisco IOS or Cisco XR switches or Routers.
 SW1={'host':'10.211.2.10',
